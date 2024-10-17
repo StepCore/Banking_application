@@ -21,4 +21,4 @@ def get_excel(formatting):
         raise ValueError("Invalid format specified. Use 'dataframe' or 'dict'.")
 
 
-# print(get_excel('dict'))
+print(get_excel('dict'))
